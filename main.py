@@ -239,8 +239,7 @@ while choix != "Q" and choix != "q":
         #Si l'utilisateur veut afficher la liste des acteurs
         affiche_acteurs = input('Voulez vous afficher les acteurs ? [o/n] : ')
         if affiche_acteurs == 'o' or affiche_acteurs == 'O':
-            for acteur in lesActeurs:
-                print(acteur.__str__())
+            afficherActeur()
         #Saut de ligne
         retour()
 
