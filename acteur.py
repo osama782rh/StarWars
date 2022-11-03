@@ -20,7 +20,7 @@ class Acteur:
         self.nom = nom
 
     def get_prenom(self):
-        self.prenom
+        return self.prenom
 
     def set_prenom(self, prenom):
         print("setter method called")
