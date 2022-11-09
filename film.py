@@ -1,6 +1,4 @@
 import random
-from acteur import Acteur
-
 
 # Déclaration de la class Film
 class Film:
