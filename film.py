@@ -2,10 +2,6 @@ import random
 
 # Déclaration de la class Film
 class Film:
-    # Déclaration de la liste d'acteurs
-
-    # Déclaration du tuple des personnage
-
     def __init__(self, titre: str, annee_sortie: str, num_episode: str, cout: int, recette: int, acteurs):
         # Avoir un ID acteur pour savoir à qui appartient le film
         self.titre = titre
