@@ -1,6 +1,4 @@
 #Déclaration de la classe Acteur
-from personnage import Personnage
-
 
 class Acteur:
 
