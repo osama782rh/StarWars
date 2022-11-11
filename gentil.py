@@ -7,23 +7,7 @@ class Gentil(Personnage):
         # pour attribuer la valeur au attribut 'nom' et 'prenom' de la classe mère.
         super().__init__(nom, prenom)
         self.force = force
-
-    def get_nom(self):
-        print("getter method called")
-        return self.nom
-
-    def set_nom(self, x):
-        print("setter method called")
-        self.nom = x
-
-    def get_prenom(self):
-        print("getter method called")
-        return self.prenom
-
-    def set_prenom(self, x):
-        print("setter method called")
-        self.prenom = x
-
+        
     def get_force(self):
         print("getter method called")
         return self.force
