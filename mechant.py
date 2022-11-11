@@ -8,7 +8,7 @@ class Mechant(Personnage):
     def __init__(self, nom, prenom, coteObscur):
         # Appelez au constructeur de la classe mère (Personnage)
         # pour attribuer la valeur au attribut 'nom' et 'prenom' de la classe mère.
-        Personnage.__init__(self, nom, prenom)  # super().__init__(nom, prenom)
+        super().__init__(self, nom, prenom)  # super().__init__(nom, prenom)
         self.coteObscur = coteObscur
 
     # Déclaration des getteurs et setteurs
